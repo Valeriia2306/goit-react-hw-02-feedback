@@ -1,4 +1,6 @@
 import styled from '@emotion/styled';
+
+// styles for feedback
 const Tittle = styled.h2`
   margin-bottom: 50px;
   font-size: 30px;
