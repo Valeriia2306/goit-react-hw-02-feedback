@@ -9,7 +9,7 @@ const FeedbackOptions = ({ options, onClickFeedback }) => {
       <FeedbackList>
         {options.map((value, index) => (
           <FeedbackItem key={index}>
-            <Button onClick={onClickFeedback}>{value}</Button>
+            <Button onClick={() => onClickFeedback(value)}>{value}</Button>
           </FeedbackItem>
         ))}
       </FeedbackList>

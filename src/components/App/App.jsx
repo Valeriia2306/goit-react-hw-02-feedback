@@ -12,9 +12,7 @@ class App extends React.Component {
     bad: 0,
   };
 
-  handleCounter = event => {
-    const key = event.currentTarget.textContent;
-
+  handleCounter = key => {
     this.setState(prevState => ({ [key]: (prevState[key] += 1) }));
   };
 
